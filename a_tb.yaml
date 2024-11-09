@@ -1,0 +1,14 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.labels, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:\下载\yolov10-main\yolov10-main\a_tb_data # dataset root dir
+train: train/images # train images (relative to 'path') 1052 images
+val: val/images # val images (relative to 'path') 225 images
+test: test/images # test images (relative to 'path') 227 images
+nc: 5
+# Classes
+names:
+  0: Header
+  1: Title
+  2: Text
+  3: Figure
+  4: Foot
+
