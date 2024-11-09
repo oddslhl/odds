@@ -29,7 +29,8 @@
 - ![image](https://github.com/user-attachments/assets/05ba12ad-6c86-4892-841b-71716ac10385)
 - 问题出在没有在之前增加的yaml文件里设置nc的值（也就是要检查的目标的个数）。改正错误后进行训练，其中epochs=200 batch=16 device=0，在本机上成功跑完，训练过程耗时六个多小时，得到best.pt文件。
 - ![image](https://github.com/user-attachments/assets/591ef425-1c81-4e15-a5e6-3302ab44281c)
-- ![image](https://github.com/user-attachments/assets/d0e81377-e545-49ec-89f0-6636443a698b)
+- ![image](https://github.com/user-attachments/assets/77a84c97-d482-460f-8723-e33d7f8a76e7)
+
 
 
 
